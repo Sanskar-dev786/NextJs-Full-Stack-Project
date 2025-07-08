@@ -18,6 +18,7 @@ export default withAuth(
                 if (pathname === "/" || pathname.startsWith("/api/vidoes")) {
                     return true
                 }
+                
 
                 return !!token
             },
